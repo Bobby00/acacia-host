@@ -241,6 +241,9 @@ button.light-gray {
 .forum-latest p span {
 	font-weight: 400;
 }
+.hidden-md {
+	display: none;
+}
 
 .forum-table-topics > thead > tr > th, .forum-table-topics > tbody > tr > th, .forum-table-topics > tfoot > tr > th, .forum-table-topics > thead > tr > td, .forum-table-topics > tbody > tr > td, .forum-table-topics > tfoot > tr > td {
 	padding: 1.2rem 1rem;
@@ -274,6 +277,15 @@ button.light-gray {
 	width: fit-content;
 	margin-left: 200px;
 }
+
+button.accent-color-bg {
+	background-color: #F7A41A;
+}
+
+.section-title-wrap.primary-color .section-title-separator:before {
+	background-color: #001446;
+}
+
 /*colors*/
 .primary-color {
 	color: #001446;
@@ -282,10 +294,47 @@ button.light-gray {
 	color: #18535B;
 }
 .secondary-color {
- color: #9B461F;
+ color: #9B461F!important;
 }
 .alternate-secondary-color {
 	color: #275C7A;
+}
+.accent-color {
+	color: #F7A41A!important;
+}
+.accent-color-bg {
+	background-color: #F7A41A;
+}
+.highlight-color {
+	color: #FFEF38;
+}
+
+.main-menu .main-menu-item-link {
+	font-size: 1.0125em;
+}
+.link-section .link-list {
+	margin: 0;
+}
+.link-list-item a {
+	font-size: 1.05em;
+	color: #275C7A;
+}
+.stick-bottom {
+	position: sticky;
+	z-index: 1000000;
+	position: -webkit-fixed;
+	top: 0;
+}
+
+.mgn-tp-30 {
+	margin-top: 30px;
+}
+
+
+
+.promo-banner {
+	background:unset;
+	background-color: gray;
 }
 
 
@@ -294,6 +343,9 @@ button.light-gray {
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.navigation .logo {
 		margin-top: 10px;
+	}
+	.hidden-md {
+		display: block;
 	}
 	.logo .logo-img {
 		width: 80px;
@@ -309,5 +361,11 @@ button.light-gray {
 	}
 	.display-flex {
 		display: flex;
+	}
+	.cstm-col-1 {
+		grid-template-columns: unset;
+	}
+	.mgn_left-40 {
+		margin-left: 15%;
 	}
 }
