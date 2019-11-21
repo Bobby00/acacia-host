@@ -351,8 +351,48 @@
   </div>
   <!-- /HEADER WRAP -->
 
+
+  <!-- LIVE NEWS WIDGET WRAP -->
+  <div class="live-news-widget-wrap">
+    <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+          {
+          "symbols": [
+            {
+              "proName": "OANDA:SPX500USD",
+              "title": "S&P 500"
+            },
+            {
+              "proName": "OANDA:NAS100USD",
+              "title": "Nasdaq 100"
+            },
+            {
+              "proName": "FX_IDC:EURUSD",
+              "title": "EUR/USD"
+            },
+            {
+              "proName": "BITSTAMP:BTCUSD",
+              "title": "BTC/USD"
+            },
+            {
+              "proName": "BITSTAMP:ETHUSD",
+              "title": "ETH/USD"
+            }
+          ],
+          "colorTheme": "dark",
+          "isTransparent": false,
+          "displayMode": "adaptive",
+          "locale": "en"
+        }
+          </script>
+        </div>
+        <!-- TradingView Widget END -->
+  </div>
+  <!-- /LIVE NEWS WIDGET WRAP -->
+
   <!-- NAVIGATION WRAP -->
-  <nav class="navigation-wrap void stick-on-top">
+  <nav class="navigation-wrap void">
     <!-- NAVIGATION -->
     <div class="navigation grid-limit">
       <!-- LOGO -->
@@ -756,46 +796,6 @@
   </div>
   <!-- /BANNER SLIDER -->
 
-  <!-- LIVE NEWS WIDGET WRAP -->
-  <div class="live-news-widget-wrap">
-    <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-          <div class="tradingview-widget-container__widget"></div>
-          <div class="tradingview-widget-copyright"></div>
-          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-          {
-          "symbols": [
-            {
-              "proName": "OANDA:SPX500USD",
-              "title": "S&P 500"
-            },
-            {
-              "proName": "OANDA:NAS100USD",
-              "title": "Nasdaq 100"
-            },
-            {
-              "proName": "FX_IDC:EURUSD",
-              "title": "EUR/USD"
-            },
-            {
-              "proName": "BITSTAMP:BTCUSD",
-              "title": "BTC/USD"
-            },
-            {
-              "proName": "BITSTAMP:ETHUSD",
-              "title": "ETH/USD"
-            }
-          ],
-          "colorTheme": "dark",
-          "isTransparent": false,
-          "displayMode": "adaptive",
-          "locale": "en"
-        }
-          </script>
-        </div>
-        <!-- TradingView Widget END -->
-  </div>
-  <!-- /LIVE NEWS WIDGET WRAP -->
 
   <!-- TradingView Widget BEGIN -->
       <div class="tradingview-widget-container stick-bottom">

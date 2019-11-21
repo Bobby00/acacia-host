@@ -251,9 +251,7 @@ button.light-gray {
 .forum-header-title {
 	font-size: 18px;
 }
-.hidden-xs {
-	display: none;
-}
+
 .header .widget-selectables:last-child .widget-options-wrap {
 	display: unset;
 }
