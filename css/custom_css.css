@@ -342,9 +342,9 @@ button.accent-color-bg {
 	font-size: 1.05em;
 	color: #275C7A;
 }
-.stick-bottom {
+.stick-top {
 	position: sticky;
-	z-index: 1000000;
+	z-index: 100;
 	position: -webkit-fixed;
 	top: 0;
 }
