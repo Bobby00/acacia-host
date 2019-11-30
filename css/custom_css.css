@@ -495,13 +495,13 @@ button.accent-color-bg {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.navigation .logo {
-		margin-top: 10px;
+		
 	}
 	.hidden-md {
 		display: block;
 	}
 	.logo .logo-img {
-		width: 80px;
+		width: 100px;
 	}
 	.banner-slider.v2 .slider-item-wrap {
 		padding: 120px 0 0;
