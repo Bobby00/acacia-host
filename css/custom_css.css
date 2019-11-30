@@ -127,6 +127,34 @@ button.light-gray {
 	color: white;
 	font-weight: 800;
 }
+
+.sidebar-headers {
+	font-size: 16px;
+	color: #001446;
+	font-weight: 600;
+	padding-bottom: 12px;
+}
+
+.start-trading-btn {
+	padding: 15px 35px;
+	border-radius: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: 800;
+	background-color: blueviolet;
+}
+
+.start-trading-btn:hover {
+	padding: 15px 35px;
+	border-radius: 30px;
+	color: blueviolet;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 800;
+	border: 2px solid blueviolet;
+	background-color: #fff;
+}
+
 .post-preview.landscape.big {
 	height: 320px;
 }
@@ -265,11 +293,8 @@ button.light-gray {
 	background-color: inherit;
 	padding-top: 60%;
 }
-.navigation .logo {
-	margin-top: 10px;
-}
 .logo .logo-img {
-	width: 80px
+	width: 130px
 }
 .submenu.void {
 	width: fit-content;
