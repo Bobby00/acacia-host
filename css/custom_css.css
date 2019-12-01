@@ -297,8 +297,8 @@ button.light-gray {
 	width: 130px
 }
 .submenu.void {
-	width: fit-content;
-	margin-left: 200px;
+	width: 50%;
+	margin-left: -30px;
 }
 
 button.accent-color-bg {
@@ -339,8 +339,8 @@ button.accent-color-bg {
 	margin: 0;
 }
 .link-list-item a {
-	font-size: 1.05em;
-	color: #275C7A;
+	font-size: 0.85em;
+	padding-top: 5px;
 }
 .stick-top {
 	position: sticky;
@@ -363,6 +363,7 @@ button.accent-color-bg {
 .promo-banner {
 	background:unset;
 	background-color: gray;
+	min-height: 150px;
 }
 
 
